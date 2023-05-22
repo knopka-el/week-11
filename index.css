@@ -1,0 +1,75 @@
+.cart {
+  width: 100%;
+  max-width: 1440px;
+  height: 1000px;
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 8fr repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-size: 22px;
+}
+
+.h1 {
+  font-size: 28px;
+}
+
+.item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-2 {
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-3 {
+  grid-area: 3 / 1 / 4 / 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-4 {
+  grid-area: 4 / 1 / 5 / 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-total {
+  grid-area: 5 / 1 / 6 / 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #0d0d0d;
+}
+
+.card-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #0d0d0d;
+}
+
+button {
+  background-color: #9b1111;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
